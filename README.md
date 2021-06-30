@@ -1,6 +1,6 @@
 Just a personal repository to keep Native Android apps made in Kotlin while learning.
 
-I'm already proficient in Flutter & hopefully maintain many plugin and apps for the community. I've started to learn Kotlin & Native Android development to improvise my skills.
+I'm already proficient in Flutter & hopefully maintain few plugin and apps for the community. I've started to learn Kotlin & Native Android development to improvise my skills.
 
 ## Applications
 
