@@ -41,11 +41,13 @@ class MainActivity : AppCompatActivity() {
             roundTheTip =  roundTheTipSwitch.isChecked
         }
         calculateButton.setOnClickListener {
-            if (roundTheTip) {
-                resultTextView.text = (costOfServiceEditText.text.toString().toDouble() * tipPercent).toInt().toString()
-            }
-            else {
-                resultTextView.text = (round(costOfServiceEditText.text.toString().toDouble() * tipPercent * 100.0) / 100.0).toString()
+            if (costOfServiceEditText.text.isNotEmpty()) {
+                if (roundTheTip) {
+                    resultTextView.text = (costOfServiceEditText.text.toString().toDouble() * tipPercent).toInt().toString()
+                }
+                else {
+                    resultTextView.text = (round(costOfServiceEditText.text.toString().toDouble() * tipPercent * 100.0) / 100.0).toString()
+                }
             }
         }
     }
