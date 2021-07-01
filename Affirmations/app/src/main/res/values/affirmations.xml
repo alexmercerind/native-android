@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="affirmations">
+        <item>Believe in yourself.</item>
+        <item>Keep faith in God.</item>
+        <item>Love yourself.</item>
+        <item>Listen to yourself.</item>
+        <item>The world is beautiful.</item>
+        <item>Keep learning &amp; improving.</item>
+        <item>Always keep trying.</item>
+        <item>Never give up.</item>
+        <item>Discover the meaning of life.</item>
+        <item>Always dream big.</item>
+    </string-array>
+</resources>
