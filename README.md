@@ -51,4 +51,4 @@ I'm already proficient in Flutter & hopefully maintain few plugin and apps for t
 
 | | |
 |-|-|
-|![](./Screenshots/Intents_1.png)|![](./Screenshots/Intents_2.png)|
+|![](./Screenshots/Intent_1.png)|![](./Screenshots/Intent_2.png)|
