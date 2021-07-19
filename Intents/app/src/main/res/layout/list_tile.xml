@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    android:id="@+id/ListTile"
+    android:clickable="true"
+    app:cardElevation="4dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="72dp">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/avatar" />
+        <TextView
+            android:id="@+id/ListTileTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="14dp"
+            android:textFontWeight="800"
+            android:gravity="center" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
